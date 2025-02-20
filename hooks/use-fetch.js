@@ -2,7 +2,7 @@ import { useState } from "react";
 import { toast } from "sonner";
 
 const useFetch = (cb) => {
-  const [data, setData] = useState(undefined);
+  const [data, setData] = useState(undefined); // this is where the repsonse data will be stored
   const [loading, setLoading] = useState(null);
   const [error, setError] = useState(null);
 
